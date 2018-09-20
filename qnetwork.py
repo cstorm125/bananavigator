@@ -60,10 +60,6 @@ class DuelingNetwork(nn.Module):
 
 
 class NoisyLinear(nn.Module):
-    '''
-    Factorized Gaussian Noise
-    https://arxiv.org/pdf/1706.10295.pdf
-    '''
     def __init__(self, in_features, out_features, std_init=0.1):
         super(NoisyLinear, self).__init__()
         

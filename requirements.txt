@@ -1,0 +1,12 @@
+numpy==1.12.1
+pytest==3.8.0
+setuptools==38.4.0
+grpcio==1.11.0
+torch==0.4.0
+tensorflow==1.7.1
+docopt==0.6.2
+Pillow==5.2.0
+protobuf==3.6.1
+grpc==0.3-19
+typing==3.6.6
+PyYAML==3.13

@@ -20,9 +20,9 @@ class Agent:
     * Distributional: NA
     * Multi-step: NA
     '''
-    def __init__(self, state_size, action_size, replay_memory, seed=1412, 
-                 lr = 1e-3, bs = 256, nb_hidden = 128,
-                 gamma = 0.99, tau = 1e-2, update_interval=5):
+    def __init__(self, state_size = 37, action_size = 4, replay_memory = mem, seed = 1412,
+        lr = 1e-3 / 4, bs = 64, nb_hidden = 128,
+        gamma=0.99, tau= 1/nb_transitions, update_interval = 5):
         self.state_size = state_size
         self.action_size = action_size
         self.seed = random.seed(seed)
