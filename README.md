@@ -25,6 +25,12 @@ State size: 37
 
 ## Getting Started
 
+0. Install dependencies.
+
+```
+pip install -r requirements.txt
+```
+
 1. Clone this repository and install `unityagents`.
 
 ```
